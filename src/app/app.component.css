@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    text-align: center;
+    background-color: lightgray;
+    padding-bottom: 3px;
+  }
+  
+  #main {
+    margin: 20px auto;
+    width: 940px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  #one {
+    height: 70px;
+    margin-top: 50px;
+  }
+  
+  .form {
+    position: relative;
+    top: 10px;
+    left: 22px;
+  }
+
+  #search{
+    width: 730px;
+    float: left;
+  }
+  
+  #green {
+    width: 200px;
+    height: 36px;
+    float: left;
+    margin-left: 10px;
+  }
+  
+  .green:hover {
+    background-color: limegreen;
+    cursor: pointer;
+  }
+  
+  .blue {
+    background-color: steelblue;
+    color: white;
+  }
+  
+  .blue:hover {
+    background-color: blue;
+    cursor: pointer;
+  }
+  
+  .orange,
+  .red {
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: orange;
+    color: white;
+    font-size: 15px;
+  }
+  
+  .orange:hover {
+    background-color: darkorange;
+    cursor: pointer;
+  }
+  
+  .red {
+    background-color: red;
+  
+  }
+  
+  .red:hover {
+    background-color: crimson;
+    cursor: pointer;
+  }
+  .btn-primary{
+   width: 60px;
+   height: 30px;
+   margin-left: 5px;
+  }
+  
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #tab {
+    margin: 25px;
+
+  }
+  
+  span{
+    cursor: pointer;
+  }
+    
